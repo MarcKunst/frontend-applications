@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Attribute } from '../attribute';
+import { ATTRIBUTES } from '../mock-attributes';
 import { from } from 'rxjs';
 
 @Component({
@@ -8,14 +9,16 @@ import { from } from 'rxjs';
   styleUrls: ['./attribute.component.scss']
 })
 export class AttributeComponent implements OnInit {
-  attribute: Attribute = {
-    id: 1,
-    name: 'Helmet'
-  };
+  
+  attributes = ATTRIBUTES;
+  selectedAttribute: Attribute;
 
   constructor() { }
 
   ngOnInit() {
   }
 
+  onSelect(attribute: Attribute): void {
+    this.selectedAttribute = attribute;
+  }
 }

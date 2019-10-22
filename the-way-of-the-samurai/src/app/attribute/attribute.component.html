@@ -1,3 +1,8 @@
-<h2>{{attribute.name}} Details</h2>
-<div><span>id: </span>{{attribute.id}}</div>
-<div><span>name: </span>{{attribute.name}}</div>
+<h2>The Attributes</h2>
+<ul class="attributes">
+  <li *ngFor="let attribute of attributes" [class.selected]="attribute === selectedAttribute" (click)="onSelect(attribute)">
+    <span class="badge">{{attribute.id}}</span> {{attribute.name}}
+  </li>
+</ul>
+
+<app-attribute-detail [attribute]="selectedAttribute"></app-attribute-detail>

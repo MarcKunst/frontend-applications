@@ -4,11 +4,13 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AttributeComponent } from './attribute/attribute.component';
+import { AttributeDetailComponent } from './attribute-detail/attribute-detail.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    AttributeComponent
+    AttributeComponent,
+    AttributeDetailComponent
   ],
   imports: [
     BrowserModule,
