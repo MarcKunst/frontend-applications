@@ -1,8 +1,19 @@
-<h2>The Attributes</h2>
-<ul class="attributes">
-  <li *ngFor="let attribute of attributes" [class.selected]="attribute === selectedAttribute" (click)="onSelect(attribute)">
-    <span class="badge">{{attribute.id}}</span> {{attribute.name}}
-  </li>
-</ul>
 
-<app-attribute-detail [attribute]="selectedAttribute"></app-attribute-detail>
+<div class="row">
+    <div class="col 6">
+        <img id="samoerai-bg" src="../../assets/img/samoerai-with-svg-layers.png">
+            <ul class="attributes">
+                <li *ngFor="let attribute of attributes" [class.selected]="attribute === selectedAttribute" (click)="onSelect(attribute)">
+                    {{attribute.name}}
+                </li>
+            </ul>
+    </div>
+    <div id="details-container" class="col 6">
+            <app-attribute-detail [attribute]="selectedAttribute"></app-attribute-detail>
+    </div>
+  </div>
+
+
+
+
+

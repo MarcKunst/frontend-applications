@@ -1,21 +1,29 @@
 /* Application-wide Styles */
+  html {
+    height: 100%;
+  }
+  body {
+    margin: 0;
+    background-image: url(assets/img/paper-bg.png);
+    background-repeat: no-repeat;
+  }
+  body, input[type="text"], button {
+    color: #333;
+    font-family: Cambria, Georgia;
+  }
 h1 {
-    color: #369;
-    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif; 
     font-size: 250%;
+    margin: 1.5rem auto 0 !important;
+    text-align: center;
   }
   h2, h3 {
     color: #444;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: lighter;
   }
-  body {
-    margin: 2em;
-  }
-  body, input[type="text"], button {
-    color: #333;
-    font-family: Cambria, Georgia;
-  }
+  
   /* everywhere else */
   * {
     font-family: Arial, Helvetica, sans-serif;

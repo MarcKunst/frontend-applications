@@ -1,8 +1,6 @@
-<h2>{{attribute.name}} Details</h2>
+<div *ngIf="attribute">
 
-<div *ngIf="selectedAttribute">
-
-    <h2>{{selectedAttribute.name}} Details</h2>
-    <div><span>id: </span>{{selectedAttribute.id}}</div>
+    <h2>{{attribute.name}}</h2>
+    <div><span>Beschrijving: </span>{{attribute.desc}}</div>
     
 </div>

@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AttributeComponent } from './attribute/attribute.component';
 import { AttributeDetailComponent } from './attribute-detail/attribute-detail.component';
+import { AlertModule } from 'ngx-bootstrap';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { AttributeDetailComponent } from './attribute-detail/attribute-detail.co
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    AlertModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
