@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="637px" height="83px" viewBox="0 0 637 83" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>bow</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" fill-opacity="0.4">
+        <g id="samoerai-with-svg-layers" transform="translate(-68.000000, -295.000000)" fill="#EBEBEB" fill-rule="nonzero" stroke="#EBEBEB" stroke-width="2">
+            <path d="M79.7240638,308.410708 C70.4360369,311.210673 61.149964,314.297264 79.7240638,299.225029 C107.227932,297.07501 214.010604,296 400.072081,296 L415.754054,299.225029 C580.843701,305.165531 671.780253,309.160745 688.563709,311.210673 C705.347166,313.260601 708.444477,315.700496 697.855645,318.530359 C689.898387,319.656064 682.95142,324.323323 677.014743,332.532134 C668.109727,344.84535 650.215668,373.525493 574.39504,370.300463 C498.574411,367.075434 443.739291,349.560054 371.813264,364.489951 C299.887236,379.419848 226.839533,386.154583 185.329693,354.627679 C139.530516,308.410708 101.966084,308.410708 79.7240638,308.410708 Z" id="bow"></path>
+        </g>
+    </g>
+</svg>

@@ -1,7 +1,16 @@
 
 <div class="row">
-    <div class="col 6">
+    <div id="images-container" class="col 6">
         <img id="samoerai-bg" src="../../assets/img/samoerai-with-svg-layers.png">
+        <!-- <img id="head" class="svg-layers" src="../../assets/img/head.svg">
+        <img id="flag" class="svg-layers" src="../../assets/img/flag.svg">
+        <img id="shoulders" class="svg-layers" src="../../assets/img/shoulders.svg">
+        <img id="bow" class="svg-layers" src="../../assets/img/bow.svg">
+        <img id="arm" class="svg-layers" src="../../assets/img/arm.svg">
+        <img id="sword" class="svg-layers" src="../../assets/img/sword.svg">
+        <img id="foot" class="svg-layers" src="../../assets/img/foot.svg">
+        <img id="full-harnas" class="svg-layers" src="../../assets/img/full-harnas.svg"> -->
+        
             <ul class="attributes">
                 <li *ngFor="let attribute of attributes" [class.selected]="attribute === selectedAttribute" (click)="onSelect(attribute)">
                     {{attribute.name}}
