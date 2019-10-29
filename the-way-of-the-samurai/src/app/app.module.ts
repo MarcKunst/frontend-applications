@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { AttributeComponent } from './attribute/attribute.component';
 import { AttributeDetailComponent } from './attribute-detail/attribute-detail.component';
 import { AlertModule } from 'ngx-bootstrap';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { AlertModule } from 'ngx-bootstrap';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    AlertModule.forRoot()
+    AlertModule.forRoot(),
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
