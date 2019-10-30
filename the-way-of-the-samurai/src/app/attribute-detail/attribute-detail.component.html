@@ -1,8 +1,14 @@
 <div *ngIf="attribute">
     
-    <p>{{resultsList[0].desc.value}}</p>
-    <!-- <ul>
-        <li *ngFor="let result of resultsList | slice:0:1; let i=index">{{result}}</li>
-    </ul> -->
+    <b>Titel:</b>
+    <h3>{{resultMatch.title.value}}</h3>
+    <i>{{resultMatch.yearSpan.value}}</i>
+    <br>
+    <img src="resultMatch.imageLink.value">
+    <br>
+    <b>Beschrijving:</b>
+    <p>{{resultMatch.desc.value}}</p>
+   
+    
     
 </div>
