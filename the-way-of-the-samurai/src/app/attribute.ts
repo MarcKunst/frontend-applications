@@ -1,4 +1,6 @@
 export class Attribute {
-    name: string;
+    title: string;
     desc: string;
+    imageLink: string;
+    yearSpan: string;
   }

@@ -11,8 +11,8 @@
         <img id="full-harnas" class="svg-layers" src="../../assets/img/full-harnas.svg"> -->
         
             <ul class="attributes">
-                <li *ngFor="let attribute of attributes" [class.selected]="attribute === selectedAttribute" (click)="onSelect(attribute)">
-                    {{attribute.name}}
+                <li *ngFor="let attribute of attributes | slice:0:8; let i=index" [class.selected]="attribute === selectedAttribute" (click)="onSelect(attribute)">
+                    {{attributes[i]}}
                 </li>
             </ul>
     </div>
