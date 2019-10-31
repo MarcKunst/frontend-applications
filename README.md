@@ -9,6 +9,10 @@ _This website was commissioned by the [university of applied science](https://ww
 
 ![full-screen](https://user-images.githubusercontent.com/45428822/67942199-9ce05a00-fbd7-11e9-88c5-3928243a41aa.png)
 
+## Build status
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/c3137730-1920-45d6-96a8-cbd1032c74c2/deploy-status)](https://app.netlify.com/sites/samoerai/deploys)
+
 ## used framework
 
 For this project I used Angular as framework. If you want more information about this framwork or you're in need of detailed documentation, follow this [link](https://angular.io/docs).
