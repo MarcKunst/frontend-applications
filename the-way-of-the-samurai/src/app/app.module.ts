@@ -7,12 +7,14 @@ import { AttributeComponent } from './attribute/attribute.component';
 import { AttributeDetailComponent } from './attribute-detail/attribute-detail.component';
 import { AlertModule } from 'ngx-bootstrap';
 import { HttpClientModule } from '@angular/common/http';
+import { ImageMapComponent } from './image-map/image-map.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AttributeComponent,
-    AttributeDetailComponent
+    AttributeDetailComponent,
+    ImageMapComponent
   ],
   imports: [
     BrowserModule,
