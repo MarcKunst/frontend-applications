@@ -13,7 +13,7 @@ export class AttributeDetailComponent implements OnInit {
   responseData: object = [];
   allData = [];
   resultsList = [];
-  resultMatch: object = [];
+  resultMatch;
   @Input() attribute: Attribute;
   
   constructor(private http: HttpClient) {
