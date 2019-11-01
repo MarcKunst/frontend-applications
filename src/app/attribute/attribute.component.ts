@@ -22,7 +22,6 @@ export class AttributeComponent implements OnInit {
       this.allData[0].results.bindings.forEach(object => {
         this.attributes.push(object.type.value);            
       });
-      console.log(this.attributes);
     })      
 }
 

@@ -31,7 +31,6 @@ export class AttributeDetailComponent implements OnInit {
       if (this.resultsList[i].type.value === this.attribute) {
         this.resultMatch = this.resultsList[i];
       }
-
     }
   }
 
